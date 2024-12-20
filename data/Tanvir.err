@@ -1,6 +1,0 @@
-2024-11-30T19:48:50.552064Z 0 [System] [MY-013169] [Server] C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe (mysqld 8.0.40) initializing of server in progress as process 3192
-2024-11-30T19:48:50.552657Z 0 [ERROR] [MY-010338] [Server] Can't find error-message file 'C:\Users\siddi\Desktop\CookingVideo\JavaProject\Pharmacy\share\errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
-2024-11-30T19:48:50.581694Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
-2024-11-30T19:48:51.506505Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
-2024-11-30T19:48:52.855478Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\Users\siddi\Desktop\CookingVideo\JavaProject\Pharmacy\lib\private\.
-2024-11-30T19:48:53.813125Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
