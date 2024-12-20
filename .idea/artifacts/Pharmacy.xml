@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Pharmacy">
+    <output-path>$PROJECT_DIR$/out/artifacts/Pharmacy</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.pharmacy.org.pharmacy.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="Testing" />
+        <option name="vendor" value="TS inc." />
+        <option name="version" value="1.0.0.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Pharmacy.jar">
+        <element id="module-output" name="Pharmacy" />
+      </element>
+    </root>
+  </artifact>
+</component>

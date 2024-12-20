@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/25dcd175-efd5-4904-86ab-64cde76752e4/console.sql" dialect="SQLite" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/99c7080c-efe2-49d7-bd65-550d8062c687/console.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/DataBase/DatabaseConnection.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/AddMedicineController.java" dialect="GenericSQL" />
+  </component>
+</project>
