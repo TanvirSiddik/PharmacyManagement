@@ -5,7 +5,7 @@ import org.sqlite.util.StringUtils;
 import java.sql.*;
 
 public class DatabaseConnection {
-    private static final String DB_URL = "jdbc:sqlite:C:\\Users\\siddi\\Desktop\\Medicine Dataset\\Pharma.db";
+    private static final String DB_URL = "jdbc:sqlite:C:/Users/siddi/Desktop/CookingVideo/JavaProject/Pharmacy/src/main/resources/dotDatabase/Pharma.db";
     public static String getAuthName;
 
     public static Connection con() throws SQLException {
