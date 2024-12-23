@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXPasswordField?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import io.github.palexdev.mfxcore.controls.Text?>
+<?import io.github.palexdev.mfxresources.fonts.MFXFontIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" prefHeight="650.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pharmacy.org.pharmacy.Controllers.MainController">
+    <HBox fx:id="topNavPane" alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="650.0" spacing="5.0" stylesheets="@../../../../CSS/dashboard.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <padding>
+            <Insets left="10.0" />
+        </padding>
+        <MFXFontIcon fx:id="closeIcon" description="fas-circle" size="15.0" styleClass="close-icon">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MFXFontIcon>
+        <MFXFontIcon fx:id="minimizeIcon" description="fas-circle" size="15.0" styleClass="minimize-icon">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MFXFontIcon>
+        <MFXFontIcon description="fas-circle" size="15.0" styleClass="always-on-top-icon">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MFXFontIcon>
+        <cursor>
+            <Cursor fx:constant="MOVE" />
+        </cursor>
+    </HBox>
+    <Text layoutX="293.0" layoutY="66.0" text="Login" AnchorPane.topAnchor="40.0">
+        <font>
+          <Font name="System Bold" size="24.0" />
+        </font>
+    </Text>
+    <VBox alignment="TOP_CENTER" layoutX="81.0" layoutY="75.0" prefHeight="500.0" prefWidth="500.0" spacing="50.0" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="69.0">
+        <HBox fx:id="errorHBox" alignment="CENTER" prefHeight="50.0" prefWidth="77.0" style="-fx-background-color: #edbcbc; -fx-max-width: 330; -fx-max-height: 40;">
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+            <Label fx:id="errorMessageLabel" text="Wrong Credential">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font></Label>
+        </HBox>
+        <MFXTextField fx:id="fieldUserName" floatMode="BORDER" floatingText=" Username" prefHeight="50.0" prefWidth="330.0">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </MFXTextField>
+        <MFXPasswordField fx:id="passwordField" floatMode="BORDER" floatingText=" Password" prefHeight="50.0" prefWidth="330.0" selectable="false">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </MFXPasswordField>
+      <Button mnemonicParsing="false" onAction="#userlogin" prefHeight="50.0" prefWidth="330.0" text="Login">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+    </VBox>
+</AnchorPane>

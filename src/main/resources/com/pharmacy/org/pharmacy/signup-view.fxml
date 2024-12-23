@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pharmacy.org.pharmacy.Controllers.SignUpController">
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name: " />
+                <TextField promptText="Ex. Tanvir Siddik" />
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="User Name:" />
+                <TextField fx:id="userNameField" promptText="Ex. tanvir" />
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password: " />
+                <PasswordField fx:id="passwordField" promptText="Password" />
+                <PasswordField fx:id="passwordFieldAgain" promptText="Again Password" />
+                <Label fx:id="errorLabel" graphicTextGap="0.0" textFill="RED">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                <Button mnemonicParsing="false" onAction="#signUp" text="Submit" />
+            </HBox>
+        </VBox>
+    </center>
+    <top>
+        <HBox alignment="CENTER" prefHeight="187.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Bitch!">
+                <font>
+                    <Font name="Arial Rounded MT Bold" size="36.0" />
+                </font>
+            </Text>
+        </HBox>
+    </top>
+    <bottom>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="60.0" BorderPane.alignment="CENTER">
+            <Label fx:id="signUpMessage" />
+            <Button mnemonicParsing="false" onAction="#toLoginPage" text="Try Login?" />
+        </VBox>
+    </bottom>
+</BorderPane>
