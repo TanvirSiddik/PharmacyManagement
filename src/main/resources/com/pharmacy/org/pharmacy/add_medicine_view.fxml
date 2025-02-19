@@ -10,14 +10,16 @@
 <?import javafx.scene.layout.VBox?>
 
 
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyTableView?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
 <VBox xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.pharmacy.org.pharmacy.Controllers.AddMedicineController">
     <AnchorPane prefHeight="770.0" prefWidth="1080.0">
         <TextField fx:id="searchField" layoutX="108.0" layoutY="88.0" prefHeight="25.0" prefWidth="659.0"
                    promptText="Search by Brand Name" style="-fx-background-radius: 7;" AnchorPane.leftAnchor="108.0"/>
-        <Button fx:id="addButton" layoutX="796.0" layoutY="88.0" onAction="#addSelectedMedicineToInventory"
-                prefHeight="25.0" prefWidth="150.0" style="-fx-background-radius: 7;" text="Add to Inventory"/>
-        <TableView fx:id="inventory" layoutY="203.0" prefHeight="600.0" prefWidth="1080.0"
+        <MFXButton buttonType="RAISED" depthLevel="LEVEL1" fx:id="addButton" layoutX="796.0" layoutY="88.0" onAction="#addSelectedMedicineToInventory"
+                   prefHeight="25.0" prefWidth="150.0" style="-fx-background-radius: 7;" text="Add to Inventory"/>
+        <MFXLegacyTableView fx:id="inventory" layoutY="203.0" prefHeight="600.0" prefWidth="1080.0"
                    style="-fx-background-radius: 9;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0"
                    AnchorPane.rightAnchor="0.0">
             <columns>
@@ -30,7 +32,7 @@
           <padding>
               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
           </padding>
-        </TableView>
+        </MFXLegacyTableView>
         <Label layoutX="443.0" layoutY="-1.0" style="-fx-font-size: 20px; -fx-font-weight: bold;"
                text="Medicine Repository">
           <padding>

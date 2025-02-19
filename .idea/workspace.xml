@@ -10,170 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaad5fa8-d3fe-4d7b-a5d6-2f9e2650a7ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/data/#ib_16384_0.dblwr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#ib_16384_1.dblwr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo10_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo11_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo12_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo13_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo14_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo15_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo16_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo17_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo18_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo19_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo20_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo21_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo22_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo23_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo24_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo25_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo26_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo27_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo28_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo29_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo30_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo31_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo32_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo33_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo34_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo35_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo36_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo37_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo7_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo8_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/#innodb_redo/#ib_redo9_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Tanvir.err" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/auto.cnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ca-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ca.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/client-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/client-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ib_buffer_pool" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ibdata1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/accounts_145.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/binary_log_trans_189.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/cond_instances_82.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/data_lock_waits_161.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/data_locks_160.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/error_log_83.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_errors_su_139.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_errors_su_140.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_errors_su_141.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_errors_su_142.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_errors_su_143.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_stages_cu_111.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_stages_hi_112.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_stages_hi_113.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_stages_su_114.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_stages_su_115.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_stages_su_116.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_stages_su_117.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_stages_su_118.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_119.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_120.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_121.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_122.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_123.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_124.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_125.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_126.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_127.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_128.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_129.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_statement_130.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_transacti_131.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_transacti_132.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_transacti_133.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_transacti_134.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_transacti_135.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_transacti_136.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_transacti_137.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_transacti_138.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_cur_84.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_his_85.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_his_86.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_sum_87.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_sum_88.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_sum_89.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_sum_90.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_sum_91.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/events_waits_sum_92.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/file_instances_93.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/file_summary_by__94.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/file_summary_by__95.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/global_status_181.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/global_variables_184.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/host_cache_96.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/hosts_146.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/keyring_componen_191.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/keyring_keys_152.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/log_status_174.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/memory_summary_b_154.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/memory_summary_b_155.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/memory_summary_b_156.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/memory_summary_b_157.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/memory_summary_g_153.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/metadata_locks_159.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/mutex_instances_97.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/objects_summary__98.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/performance_time_99.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/persisted_variab_187.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/prepared_stateme_175.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/processlist_100.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_appl_165.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_appl_166.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_appl_167.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_appl_168.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_appl_170.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_appl_171.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_asyn_172.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_asyn_173.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_conn_162.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_conn_164.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_grou_163.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/replication_grou_169.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/rwlock_instances_101.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/session_account__151.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/session_connect__150.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/session_status_182.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/session_variable_185.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/setup_actors_102.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/setup_consumers_103.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/setup_instrument_104.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/setup_objects_105.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/setup_threads_106.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/socket_instances_147.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/socket_summary_b_148.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/socket_summary_b_149.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/status_by_accoun_177.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/status_by_host_178.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/status_by_thread_179.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/status_by_user_180.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/table_handles_158.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/table_io_waits_s_107.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/table_io_waits_s_108.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/table_lock_waits_109.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/threads_110.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/tls_channel_stat_190.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/user_defined_fun_188.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/user_variables_b_176.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/users_144.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/variables_by_thr_183.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/performance_schema/variables_info_186.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/private_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/public_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/server-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/server-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sys/sys_config.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/undo_001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/undo_002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Pharmacy/Pharmacy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Pharmacy2/Pharmacy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Pharmacy_jar/Pharmacy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Pharmacy_jar/identifier.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataBase/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/SummaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/SummaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/add_medicine_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/add_medicine_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/dashboard-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/inventory-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/inventory-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/main-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/purchase-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/purchase-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/signup-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/summary-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/summary-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dotDatabase/Pharma.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dotDatabase/Pharma.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,36 +55,40 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBCChecking.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/siddi/AppData/Local/SceneBuilder/SceneBuilder.exe&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.JDBCChecking.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/siddi/AppData/Local/SceneBuilder/SceneBuilder.exe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\siddi\Downloads\Compressed\PharmacyManagement-main\PharmacyManagement-main\src\main\resources\CSS" />
@@ -249,7 +101,7 @@
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.pharmacy.org.pharmacy.Main" />
-      <module name="PharmacyManagement" />
+      <module name="Pharmacy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,8 +110,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -313,6 +165,7 @@
       <workItem from="1734972070699" duration="5629000" />
       <workItem from="1734977761391" duration="82000" />
       <workItem from="1734977911545" duration="42000" />
+      <workItem from="1739975504936" duration="4674000" />
     </task>
     <servers />
   </component>

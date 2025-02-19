@@ -13,6 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
 <AnchorPane fx:id="mainPane" prefHeight="650.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pharmacy.org.pharmacy.Controllers.MainController">
     <HBox fx:id="topNavPane" alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="650.0" spacing="5.0" stylesheets="@../../../../CSS/dashboard.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <padding>
@@ -62,10 +63,10 @@
                 <Font name="System Bold" size="14.0" />
             </font>
         </MFXPasswordField>
-      <Button mnemonicParsing="false" onAction="#userlogin" prefHeight="50.0" prefWidth="330.0" text="Login">
+      <MFXButton buttonType="RAISED" depthLevel="LEVEL1" mnemonicParsing="false" onAction="#userlogin" prefHeight="50.0" prefWidth="330.0" text="Login">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
-      </Button>
+      </MFXButton>
     </VBox>
 </AnchorPane>

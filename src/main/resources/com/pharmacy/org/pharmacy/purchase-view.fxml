@@ -10,6 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyTableView?>
 <VBox alignment="TOP_CENTER" prefHeight="770.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pharmacy.org.pharmacy.Controllers.PurchaseController">
 
     <!-- Title -->
@@ -19,7 +20,7 @@
       </VBox.margin></Label>
 
     <!-- Table to display inventory items -->
-    <TableView fx:id="inventoryTable" maxHeight="545.0" minWidth="600" prefHeight="545.0" prefWidth="1080.0" style="-fx-background-radius: 7;">
+    <MFXLegacyTableView fx:id="inventoryTable" maxHeight="545.0" minWidth="600" prefHeight="545.0" prefWidth="1080.0" style="-fx-background-radius: 7;">
         <columns>
             <TableColumn fx:id="brandNameColumn" prefWidth="137.0" text="Brand Name" />
             <TableColumn fx:id="genericNameColumn" prefWidth="177.0" text="Generic Name" />
@@ -31,7 +32,7 @@
       <padding>
          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
       </padding>
-    </TableView>
+    </MFXLegacyTableView>
 
     <!-- Input Quantity and Update Button -->
     <HBox spacing="10.0">

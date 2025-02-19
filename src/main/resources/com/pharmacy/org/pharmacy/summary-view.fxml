@@ -10,6 +10,8 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.layout.HBox?>
+<?import io.github.palexdev.materialfx.controls.MFXDatePicker?>
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyTableView?>
 <VBox alignment="CENTER" spacing="20" prefWidth="1080.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pharmacy.org.pharmacy.Controllers.SummaryController">
     <!-- Filter Controls -->
     <HBox alignment="CENTER" spacing="10">
@@ -33,10 +35,10 @@
     </LineChart>
 
     <!-- TableView for Sales Details -->
-    <TableView fx:id="salesTable">
+    <MFXLegacyTableView fx:id="salesTable">
         <columns>
             <TableColumn text="Date" fx:id="dateColumn" />
             <TableColumn text="Sales Amount (৳)" fx:id="salesAmountColumn" />
         </columns>
-    </TableView>
+    </MFXLegacyTableView>
 </VBox>

@@ -1,6 +1,7 @@
 package com.pharmacy.org.pharmacy.Controllers;
 
 import DataBase.DatabaseConnection;
+import com.pharmacy.org.pharmacy.Models.SalesData;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -108,23 +109,7 @@ public class SummaryController {
             e.printStackTrace();
         }
     }
+}
 
     // Inner class for table view data representation
-    public static class SalesData {
-        private final String date;
-        private final double amount;
 
-        public SalesData(String date, double amount) {
-            this.date = date;
-            this.amount = amount;
-        }
-
-        public String getDate() {
-            return date;
-        }
-
-        public double getAmount() {
-            return amount;
-        }
-    }
-}
