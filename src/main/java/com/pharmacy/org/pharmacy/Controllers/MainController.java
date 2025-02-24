@@ -62,15 +62,10 @@ public class MainController {
         }
     }
 
-    public void userSignup() {
-        // Proceed to the sign-up scene
-        SceneManager.loadScene("signup-view.fxml", "SignUp");
-    }
     public void initialize() {
         errorHBox.setVisible(false);
         customButtonAction();
         setupWindowDragging();
-
 
     }
 

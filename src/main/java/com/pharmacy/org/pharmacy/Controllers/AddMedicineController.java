@@ -19,19 +19,11 @@ import java.util.Optional;
 
 public class AddMedicineController {
     public Button addButton;
-    @FXML
-    private TableColumn<Medicine, String> names;
 
-    @FXML
+    public TableColumn<Medicine, String> names;
     public TableColumn<Medicine, String> generic;
-
-    @FXML
     public TableColumn<Medicine, String> strength;
-
-    @FXML
     public TableColumn<Medicine, String> manufacturer;
-
-    @FXML
     public TableColumn<Medicine, String> prices;
 
     @FXML
@@ -71,10 +63,8 @@ public class AddMedicineController {
                     String lowerCaseFilter = newValue.toLowerCase();
 
                     // Compare search query with each column's data
-                    return medicine.getBrandName().toLowerCase().contains(lowerCaseFilter) ||
-                            medicine.getGenericName().toLowerCase().contains(lowerCaseFilter) ||
-                            medicine.getStrength().toLowerCase().contains(lowerCaseFilter) ||
-                            medicine.getManufacture().toLowerCase().contains(lowerCaseFilter);
+                    return medicine.brandName().toLowerCase().contains(lowerCaseFilter) ||
+                            medicine.genericName().toLowerCase().contains(lowerCaseFilter);
                 })
         );
 
@@ -110,10 +100,10 @@ public class AddMedicineController {
                 // Check if the medicine already exists in the inventory
                 String checkQuery = "SELECT quantity FROM inventory WHERE brand_name = ? AND generic_name = ? AND strength = ? AND manufacturer = ?";
                 try (PreparedStatement checkStatement = data.prepareStatement(checkQuery)) {
-                    checkStatement.setString(1, selectedMedicine.getBrandName());
-                    checkStatement.setString(2, selectedMedicine.getGenericName());
-                    checkStatement.setString(3, selectedMedicine.getStrength());
-                    checkStatement.setString(4, selectedMedicine.getManufacture());
+                    checkStatement.setString(1, selectedMedicine.brandName());
+                    checkStatement.setString(2, selectedMedicine.genericName());
+                    checkStatement.setString(3, selectedMedicine.strength());
+                    checkStatement.setString(4, selectedMedicine.manufacture());
 
                     ResultSet resultSet = checkStatement.executeQuery();
                     if (resultSet.next()) {
@@ -140,10 +130,10 @@ public class AddMedicineController {
                                 String updateQuery = "UPDATE inventory SET quantity = ? WHERE brand_name = ? AND generic_name = ? AND strength = ? AND manufacturer = ?";
                                 try (PreparedStatement updateStatement = data.prepareStatement(updateQuery)) {
                                     updateStatement.setInt(1, existingQuantity + newQuantity);
-                                    updateStatement.setString(2, selectedMedicine.getBrandName());
-                                    updateStatement.setString(3, selectedMedicine.getGenericName());
-                                    updateStatement.setString(4, selectedMedicine.getStrength());
-                                    updateStatement.setString(5, selectedMedicine.getManufacture());
+                                    updateStatement.setString(2, selectedMedicine.brandName());
+                                    updateStatement.setString(3, selectedMedicine.genericName());
+                                    updateStatement.setString(4, selectedMedicine.strength());
+                                    updateStatement.setString(5, selectedMedicine.manufacture());
 
                                     int rowsUpdated = updateStatement.executeUpdate();
                                     if (rowsUpdated > 0) {
@@ -172,15 +162,15 @@ public class AddMedicineController {
 
             Optional<Integer> result = dialog.showAndWait();
             result.ifPresent(quantity -> {
-                double unitPrice = extractPriceFromString(selectedMedicine.getPackageContainer());
+                double unitPrice = extractPriceFromString(selectedMedicine.packageContainer());
 
                 try (Connection data = DatabaseConnection.con()) {
                     String insertQuery = "INSERT INTO inventory (brand_name, generic_name, strength, manufacturer, price, quantity, sell_price) VALUES (?, ?, ?, ?, ?, ?, ?)";
                     try (PreparedStatement insertStatement = data.prepareStatement(insertQuery)) {
-                        insertStatement.setString(1, selectedMedicine.getBrandName());
-                        insertStatement.setString(2, selectedMedicine.getGenericName());
-                        insertStatement.setString(3, selectedMedicine.getStrength());
-                        insertStatement.setString(4, selectedMedicine.getManufacture());
+                        insertStatement.setString(1, selectedMedicine.brandName());
+                        insertStatement.setString(2, selectedMedicine.genericName());
+                        insertStatement.setString(3, selectedMedicine.strength());
+                        insertStatement.setString(4, selectedMedicine.manufacture());
                         insertStatement.setDouble(5, unitPrice);
                         insertStatement.setInt(6, quantity);
                         insertStatement.setDouble(7, unitPrice);
@@ -259,7 +249,7 @@ public class AddMedicineController {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Item Added");
         alert.setHeaderText("Success");
-        alert.setContentText("The medicine \"" + medicine.getBrandName() + "\" has been successfully added to the inventory with quantity: "
+        alert.setContentText("The medicine \"" + medicine.brandName() + "\" has been successfully added to the inventory with quantity: "
                 + quantity + ". Total Price: ৳ " + String.format("%.2f", totalPrice));
         alert.showAndWait();
     }
@@ -268,7 +258,7 @@ public class AddMedicineController {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Update Successful");
         alert.setHeaderText("Medicine Updated");
-        alert.setContentText("The medicine \"" + medicine.getBrandName() + "\" was updated successfully with quantity: "
+        alert.setContentText("The medicine \"" + medicine.brandName() + "\" was updated successfully with quantity: "
                 + newQuantity);
         alert.showAndWait();
     }
