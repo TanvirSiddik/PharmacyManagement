@@ -9,8 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaad5fa8-d3fe-4d7b-a5d6-2f9e2650a7ec" name="Changes" comment="">
+    <list default="true" id="eaad5fa8-d3fe-4d7b-a5d6-2f9e2650a7ec" name="Changes" comment="minor ui update">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/PurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/PurchaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/add_medicine_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/add_medicine_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/dashboard-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/purchase-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/purchase-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/summary-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/summary-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dotDatabase/Pharma.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dotDatabase/Pharma.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "author": "tanvir-lnx"
+    },
+    {
+      "state": "OPEN",
+      "assignee": "TanvirSiddik",
+      "author": "tanvir-lnx"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TanvirSiddik",
+    "author": "tanvir-lnx"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TanvirSiddik/PharmacyManagement.git",
+    "accountId": "73867a22-9033-4e8f-8aca-1f16b4f80f9b"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -159,12 +191,36 @@
       <workItem from="1739980372691" duration="528000" />
       <workItem from="1740413721815" duration="4427000" />
       <workItem from="1740418678100" duration="800000" />
-      <workItem from="1742412082543" duration="2534000" />
+      <workItem from="1742412082543" duration="6827000" />
     </task>
+    <task id="LOCAL-00001" summary="minor ui update">
+      <option name="closed" value="true" />
+      <created>1742414753440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742414753440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minor ui update" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor ui update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

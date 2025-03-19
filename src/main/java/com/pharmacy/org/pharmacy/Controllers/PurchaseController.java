@@ -128,11 +128,12 @@ public class PurchaseController {
                     stmt.executeUpdate();
 
                     // Insert the purchase record into Purchases table
-                    String insertQuery = "INSERT INTO Purchases (brand_name, quantity, purchase_amount, purchase_date) VALUES (?, ?, ?, CURRENT_DATE)";
+                    String insertQuery = "INSERT INTO Purchases (brand_name, quantity, purchase_amount, purchase_date) VALUES (?, ?, ?, ?)";
                     try (PreparedStatement insertStmt = conn.prepareStatement(insertQuery)) {
                         insertStmt.setString(1, selected.getBrandName());
                         insertStmt.setInt(2, purchaseQuantity);
                         insertStmt.setDouble(3, Double.parseDouble(decimalFormat.format(purchaseAmount)));
+                        insertStmt.setDate(4, java.sql.Date.valueOf(LocalDate.now()));
                         insertStmt.executeUpdate();
                     }
 
