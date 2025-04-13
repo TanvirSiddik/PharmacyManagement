@@ -93,7 +93,7 @@ public class PurchaseController {
                 int purchaseQuantity = Integer.parseInt(quantityText);
 
                 if (purchaseQuantity <= 0) {
-                    showErrorAlert("Quantity must be a positive number.");
+                    showErrorAlert("Quantity must be greater than 0");
                     return;
                 }
 
