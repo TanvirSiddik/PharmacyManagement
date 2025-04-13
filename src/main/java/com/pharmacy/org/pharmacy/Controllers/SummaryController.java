@@ -9,6 +9,8 @@ import javafx.scene.chart.LineChart;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -117,12 +119,16 @@ public class SummaryController {
 
         } catch (SQLException e) {
             totalSalesLabel.setText("Error loading sales data.");
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("Database Error");
-            alert.setHeaderText("Could not load sales data");
-            alert.setContentText(e.getMessage());
-            alert.showAndWait();
-            e.printStackTrace();
+            showDatabaseError(e);
         }
+    }
+
+    private void showDatabaseError(SQLException e) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle("Database Error");
+        alert.setHeaderText("Could not load sales data");
+        alert.setContentText(e.getMessage());
+        alert.showAndWait();
+        e.printStackTrace();
     }
 }
