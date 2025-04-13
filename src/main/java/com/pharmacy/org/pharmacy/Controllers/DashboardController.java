@@ -1,70 +1,28 @@
 package com.pharmacy.org.pharmacy.Controllers;
 
 import io.github.palexdev.materialfx.controls.MFXProgressSpinner;
-import io.github.palexdev.mfxresources.fonts.MFXFontIcon;
-import javafx.application.Platform;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
-
 import java.io.IOException;
-
 import static DataBase.DatabaseConnection.getAuthName;
 
 public class DashboardController {
-    double xOffset;
-    double yOffset;
-
 
     public Button inventory;
     public Button pageTwo;
     public VBox mainVbox;
     public Label authName;
-    public MFXFontIcon closeIcon;
-    public MFXFontIcon minimizeIcon;
-    public MFXFontIcon alwaysOnTopIcon;
     public BorderPane borderPane;
-    public HBox windowHeader;
 
     public void initialize() {
         callInventory();
         setUserName();
-        customButtonAction();
-        setupWindowDragging();
-    }
-
-    public void setupWindowDragging() {
-
-        // Get the current stage dynamically if not already initialized
-        windowHeader.setOnMousePressed(event -> {
-            Stage stage = (Stage) borderPane.getScene().getWindow();
-            if (stage == null) {
-                stage = (Stage) borderPane.getScene().getWindow();
-            }
-            xOffset = stage.getX() - event.getScreenX();
-            yOffset = stage.getY() - event.getScreenY();
-        });
-
-        windowHeader.setOnMouseDragged(event -> {
-            Stage stage = (Stage) borderPane.getScene().getWindow();
-            if (stage != null) {
-                stage.setX(event.getScreenX() + xOffset);
-                stage.setY(event.getScreenY() + yOffset);
-            }
-        });
-    }
-
-    public void customButtonAction() {
-        closeIcon.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> Platform.exit());
-        minimizeIcon.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> ((Stage) borderPane.getScene().getWindow()).setIconified(true));
     }
 
     public void setUserName() {

@@ -14,26 +14,7 @@
 
 <BorderPane fx:id="borderPane" prefHeight="768.0" prefWidth="1368.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pharmacy.org.pharmacy.Controllers.DashboardController">
    <top>
-       <HBox fx:id="windowHeader" alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="1280.0" spacing="5.0" style="-fx-background-color: #333a40;" stylesheets="@../../../../CSS/dashboard.css">
-           <padding>
-               <Insets left="10.0" />
-           </padding>
-           <MFXFontIcon fx:id="closeIcon" description="fas-circle" size="13.0" styleClass="close-icon" tabSize="4">
-            <cursor>
-               <Cursor fx:constant="HAND" />
-            </cursor></MFXFontIcon>
-           <MFXFontIcon fx:id="minimizeIcon" description="fas-circle" size="13.0" styleClass="minimize-icon" tabSize="4">
-            <cursor>
-               <Cursor fx:constant="HAND" />
-            </cursor></MFXFontIcon>
-           <MFXFontIcon fx:id="alwaysOnTopIcon" description="fas-circle" size="13.0" styleClass="always-on-top-icon" tabSize="4">
-            <cursor>
-               <Cursor fx:constant="HAND" />
-            </cursor></MFXFontIcon>
-         <cursor>
-            <Cursor fx:constant="MOVE" />
-         </cursor>
-       </HBox>
+
    </top>
     <left>
        <VBox alignment="TOP_CENTER" prefHeight="800.0" prefWidth="249.0" spacing="40.0" BorderPane.alignment="CENTER">
