@@ -20,7 +20,6 @@ public class Main extends Application {
                 .setResolveAssets(true)
                 .build()
                 .setGlobal();
-        stage.initStyle(StageStyle.UNDECORATED);
         SceneManager.setPrimaryStage(stage);
         SceneManager.loadScene("main-view.fxml", "Login");
     }
