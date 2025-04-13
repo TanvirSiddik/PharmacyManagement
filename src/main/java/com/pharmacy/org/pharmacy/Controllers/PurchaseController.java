@@ -31,7 +31,6 @@ public class PurchaseController {
     public Label purchaseDateLabel;
 
     public void initialize() {
-        // Configure the inventoryTable with necessary columns
         brandNameColumn.setCellValueFactory(new PropertyValueFactory<>("brandName"));
         genericNameColumn.setCellValueFactory(new PropertyValueFactory<>("genericName"));
         strengthColumn.setCellValueFactory(new PropertyValueFactory<>("strength"));
@@ -40,11 +39,8 @@ public class PurchaseController {
         quantityColumn.setCellValueFactory(new PropertyValueFactory<>("quantity"));
 
         inventoryTable.setItems(inventory);
-
-        // Load inventory data
         loadInventoryData();
 
-        // Update purchase amount in real-time
         quantityField.textProperty().addListener((observable, oldValue, newValue) -> updatePurchaseAmount());
     }
 
@@ -56,18 +52,15 @@ public class PurchaseController {
             try {
                 int purchaseQuantity = Integer.parseInt(quantityText);
                 if (purchaseQuantity > 0) {
-                    // Calculate purchase amount in real-time
                     double price = Double.parseDouble(selected.getPrice());
                     double purchaseAmount = price * purchaseQuantity;
                     purchaseAmountLabel.setText("Purchase Amount: ৳ " + purchaseAmount);
-
                 }
             } catch (NumberFormatException e) {
                 purchaseAmountLabel.setText("Invalid quantity");
             }
         }
     }
-
 
     private void loadInventoryData() {
         String query = "SELECT brand_name, generic_name, strength, manufacturer, price, quantity FROM Inventory";
@@ -110,15 +103,12 @@ public class PurchaseController {
                     return;
                 }
 
-                // Calculate purchase amount
                 double price = Double.parseDouble(selected.getPrice());
                 double purchaseAmount = price * purchaseQuantity;
 
-                // Update the inventory quantity in the UI
                 selected.setQuantity(currentQuantity - purchaseQuantity);
                 inventoryTable.refresh();
 
-                // Update the database
                 String updateQuery = "UPDATE Inventory SET quantity = ? WHERE brand_name = ?";
                 try (Connection conn = DatabaseConnection.con();
                      PreparedStatement stmt = conn.prepareStatement(updateQuery)) {
@@ -127,21 +117,18 @@ public class PurchaseController {
                     stmt.setString(2, selected.getBrandName());
                     stmt.executeUpdate();
 
-                    // Insert the purchase record into Purchases table
+                    // ✅ Insert human-readable date as TEXT
                     String insertQuery = "INSERT INTO Purchases (brand_name, quantity, purchase_amount, purchase_date) VALUES (?, ?, ?, ?)";
                     try (PreparedStatement insertStmt = conn.prepareStatement(insertQuery)) {
                         insertStmt.setString(1, selected.getBrandName());
                         insertStmt.setInt(2, purchaseQuantity);
                         insertStmt.setDouble(3, Double.parseDouble(decimalFormat.format(purchaseAmount)));
-                        insertStmt.setDate(4, java.sql.Date.valueOf(LocalDate.now()));
+                        insertStmt.setString(4, LocalDate.now().toString()); // 👈 this ensures "YYYY-MM-DD"
                         insertStmt.executeUpdate();
                     }
 
-                    // Update purchase details in UI
                     purchaseAmountLabel.setText("Purchase Amount: ৳ " + purchaseAmount);
-
                     purchaseDateLabel.setText("Purchase Date: " + LocalDate.now());
-
                     showInfoAlert();
                 }
 

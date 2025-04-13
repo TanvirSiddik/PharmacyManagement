@@ -7,7 +7,7 @@ import java.sql.*;
 
 public class DatabaseConnection {
     
-    private static final String DB_URL = "jdbc:sqlite:/home/tanvir/JavaDev/Projects/PharmacyManagement/src/main/resources/dotDatabase/Pharma.db";
+    private static final String DB_URL = "jdbc:sqlite:src/main/resources/dotDatabase/Pharma.db";
     private static final Logger log = LoggerFactory.getLogger(DatabaseConnection.class);
     public static String getAuthName;
 

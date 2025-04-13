@@ -7,10 +7,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.XYChart;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.sql.Connection;
@@ -57,6 +54,15 @@ public class SummaryController {
         startDatePicker.setValue(today.minusDays(6));
         endDatePicker.setValue(today);
 
+        // Prevent selecting an end date before start date
+        endDatePicker.setDayCellFactory(picker -> new DateCell() {
+            @Override
+            public void updateItem(LocalDate date, boolean empty) {
+                super.updateItem(date, empty);
+                setDisable(empty || date.isBefore(startDatePicker.getValue()));
+            }
+        });
+
         // Load data for the default range
         loadSalesData(startDatePicker.getValue(), endDatePicker.getValue());
     }
@@ -102,14 +108,21 @@ public class SummaryController {
 
             salesTable.setItems(salesDataList);
             salesChart.getData().add(series);
-            totalSalesLabel.setText("Total Sales: ৳" + decimalFormat.format(totalSales));
+
+            if (salesDataList.isEmpty()) {
+                totalSalesLabel.setText("No sales data found.");
+            } else {
+                totalSalesLabel.setText("Total Sales: ৳" + decimalFormat.format(totalSales));
+            }
 
         } catch (SQLException e) {
             totalSalesLabel.setText("Error loading sales data.");
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Database Error");
+            alert.setHeaderText("Could not load sales data");
+            alert.setContentText(e.getMessage());
+            alert.showAndWait();
             e.printStackTrace();
         }
     }
 }
-
-    // Inner class for table view data representation
-

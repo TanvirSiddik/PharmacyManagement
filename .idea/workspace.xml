@@ -10,14 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaad5fa8-d3fe-4d7b-a5d6-2f9e2650a7ec" name="Changes" comment="minor ui update">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e476037-112b-4bbc-9b2b-0298703f92d9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5e476037-112b-4bbc-9b2b-0298703f92d9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataBase/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/PurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/PurchaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/add_medicine_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/add_medicine_view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/dashboard-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/purchase-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/purchase-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/summary-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pharmacy/org/pharmacy/summary-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/SummaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/org/pharmacy/Controllers/SummaryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/dotDatabase/Pharma.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dotDatabase/Pharma.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,30 +34,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN",
-      "author": "tanvir-lnx"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;author&quot;: &quot;tanvir-lnx&quot;
     },
     {
-      "state": "OPEN",
-      "assignee": "TanvirSiddik",
-      "author": "tanvir-lnx"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;TanvirSiddik&quot;,
+      &quot;author&quot;: &quot;tanvir-lnx&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "TanvirSiddik",
-    "author": "tanvir-lnx"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TanvirSiddik&quot;,
+    &quot;author&quot;: &quot;tanvir-lnx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/TanvirSiddik/PharmacyManagement.git",
-    "accountId": "73867a22-9033-4e8f-8aca-1f16b4f80f9b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TanvirSiddik/PharmacyManagement.git&quot;,
+    &quot;accountId&quot;: &quot;73867a22-9033-4e8f-8aca-1f16b4f80f9b&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -92,13 +90,13 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/opt/scenebuilder/bin/SceneBuilder",
+    "last_opened_file_path": "/home/tanvir/Desktop/JavaRepo/Projects/PharmacyManagement",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.JavaFX",
@@ -192,6 +190,8 @@
       <workItem from="1740413721815" duration="4427000" />
       <workItem from="1740418678100" duration="800000" />
       <workItem from="1742412082543" duration="6827000" />
+      <workItem from="1744556833375" duration="332000" />
+      <workItem from="1744558348006" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="minor ui update">
       <option name="closed" value="true" />
