@@ -22,12 +22,12 @@ public class InventoryController {
 
     // Observable list to hold inventory items
     private final ObservableList<InventoryItem> inventory = FXCollections.observableArrayList();
-    public TableColumn brandNameColumn;
-    public TableColumn genericNameColumn;
-    public TableColumn strengthColumn;
-    public TableColumn manufacturerColumn;
-    public TableColumn priceColumn;
-    public TableColumn quantityColumn;
+    public TableColumn<String, InventoryItem> brandNameColumn;
+    public TableColumn<String, InventoryItem> genericNameColumn;
+    public TableColumn<String, InventoryItem> strengthColumn;
+    public TableColumn<String, InventoryItem> manufacturerColumn;
+    public TableColumn<String, InventoryItem> priceColumn;
+    public TableColumn<String, InventoryItem> quantityColumn;
 
     public void initialize() {
         // Configure the inventoryTable
