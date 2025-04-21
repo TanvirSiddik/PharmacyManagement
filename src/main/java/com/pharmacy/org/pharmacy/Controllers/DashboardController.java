@@ -2,7 +2,6 @@ package com.pharmacy.org.pharmacy.Controllers;
 
 import io.github.palexdev.materialfx.controls.MFXProgressSpinner;
 import javafx.concurrent.Task;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -40,11 +39,11 @@ public class DashboardController {
         loadViewWithLoading("/com/pharmacy/org/pharmacy/add_medicine_view.fxml");
     }
 
-    public void callPurchase(ActionEvent actionEvent) {
+    public void callPurchase() {
         loadViewWithLoading("/com/pharmacy/org/pharmacy/purchase-view.fxml");
     }
 
-    public void callSummary(ActionEvent actionEvent) {
+    public void callSummary() {
         loadViewWithLoading("/com/pharmacy/org/pharmacy/summary-view.fxml");
     }
 
@@ -75,7 +74,7 @@ public class DashboardController {
         });
 
         // On failure, log the error and optionally show an error message
-        loadViewTask.setOnFailed(event -> {
+        loadViewTask.setOnFailed(_ -> {
             mainVbox.getChildren().clear();
             System.out.println("Error loading view: " + fxmlFile);
             loadViewTask.getException().printStackTrace();
