@@ -7,10 +7,9 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-
 import java.sql.*;
+import java.text.DecimalFormat;
 import java.time.LocalDate;
-
 import static com.pharmacy.org.pharmacy.Controllers.SummaryController.decimalFormat;
 
 public class PurchaseController {
@@ -54,7 +53,8 @@ public class PurchaseController {
                 if (purchaseQuantity > 0) {
                     double price = Double.parseDouble(selected.getPrice());
                     double purchaseAmount = price * purchaseQuantity;
-                    purchaseAmountLabel.setText("Purchase Amount: ৳ " + purchaseAmount);
+                    DecimalFormat df = new DecimalFormat("0.00");
+                    purchaseAmountLabel.setText("Purchase Amount: ৳ " + df.format(purchaseAmount));
                 }
             } catch (NumberFormatException e) {
                 purchaseAmountLabel.setText("Invalid quantity");
